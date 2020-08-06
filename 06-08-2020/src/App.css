@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  background-image: url('../src/assets/img/serial-lamps.jpg');
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.logo-image {
+  width: 180px;
+}
+.navbar{
+  background-color:#44444d;
+  color: white;
+}
+.card{
+    width: 250px;
+    border-radius: 10px !important;
+    border-radius:  15px !important;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgba(251, 251, 251, 0.876);
+}
+.card-img{
+
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.card-list {
+  margin-top: 20px;
+}
+
+.card-Agua{
+  width: 730px;
+  height: 430px;
+  border-radius: 10px !important;
+  border-radius:  15px !important;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: rgba(251, 251, 251, 0.876);
+}
+.card-img-Agua{
+  width: 10px;
+  height: 280px;
+  margin-left: -450px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.card-list-Agua {
+margin-top: 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.nav-link {
+  color: #fff !important;
+}
+.tituloAndares{
+  font-weight: bold;
+}
+.textocards{
+  font-size: 18px;
+}
